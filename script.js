@@ -10,7 +10,7 @@ startButton.addEventListener('click', () => {
         startButton.textContent = 'ストップ';
         isRunning = true;
         count = 0;
-        interval = setInterval(updateNumber, 600);
+        interval = setInterval(updateNumber, 500);
     } else {
         stopGame();
     }
