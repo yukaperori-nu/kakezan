@@ -17,7 +17,7 @@ startButton.addEventListener('click', () => {
 });
 
 function updateNumber() {
-    if (count < 50) {
+    if (count < 100) {
         if (count % 2 === 0) {
             // 偶数回の更新では掛け算式を表示
             num1 = Math.floor(Math.random() * 9) + 1; // 1 から 9 のランダムな数
